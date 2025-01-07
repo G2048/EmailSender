@@ -24,6 +24,11 @@ This is a single microservice that sends emails.
 > [!IMPORTANT]
 > You must follow the `BrokerEmailMessage` model protocol
 
+## TODO List
+
+- [ ] Provide a separate interface for broker callback
+- [ ] Add tests
+
 
 ## Contributing
 
