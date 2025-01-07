@@ -21,6 +21,9 @@ This is a single microservice that sends emails.
 1. Choose in your microservice `BROKER_PUBLIC="emails"`
 2. NatsClient must be send the `BrokerEmailMessage` model
 
+> [!IMPORTANT]
+> You must follow the `BrokerEmailMessage` model protocol
+
 
 ## Contributing
 
