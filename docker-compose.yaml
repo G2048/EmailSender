@@ -1,0 +1,19 @@
+services:
+  broker:
+    image: nats:latest
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+      - "6222:6222"
+      - "5222:5222"
+
+networks:
+  core:
+    external: true
+    # driver: bridge
+    driver: overlay
+
+
+# TEST:
+# curl http://localhost:8222
+# telnet localhost 4222
